@@ -1,8 +1,11 @@
- import Test from "@/components/Test";
-  function page(){
-  return <div>
-     
-    <Test/>
-  </div>
+import Test from "@/components/Test";
+
+function Page() {
+  return (
+    <div>
+      <Test />
+    </div>
+  );
 }
-export default page;
+
+export default Page;
